@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App medica</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">App Medica</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Menu principal</string>
+    <string name="menu_gallery">Asistente</string>
+    <string name="menu_slideshow">Historial</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_asistente">Asistente</string>
+    <string name="menu_historial">Historial</string>
+</resources>
