@@ -3,5 +3,7 @@
         <item name="colorPrimary">@color/primary_dark</item>
         <item name="colorPrimaryDark">@color/primary_darker</item>
         <item name="colorAccent">@color/accent_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>
