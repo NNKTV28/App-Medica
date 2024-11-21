@@ -23,7 +23,7 @@ class ChatViewModel : ViewModel() {
     private val generativeModel by lazy {
         GenerativeModel(
             modelName = "gemini-pro",
-            apiKey = "AIzaSyD-iHBBJIeSbLTkL9v_uXf0E7XPdynd4XQ" // Replace with your actual Gemini API key
+            apiKey = "API KEY" // Replace with your actual Gemini API key
         )
     }
 
