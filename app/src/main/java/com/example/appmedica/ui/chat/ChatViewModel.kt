@@ -54,7 +54,7 @@ class ChatViewModel : ViewModel() {
 
             } catch (e: Exception) {
                 Log.e("ChatViewModel", "Error details: ${e.message}")
-                val fallbackResponse = "I understand your question about $userMessage. Let me provide some general guidance..."
+                val fallbackResponse = "Lea las instrucciones del medicamento y consulte a su farmaceutico..."
                 currentMessages.add(ChatMessage(fallbackResponse, isBot = true))
                 _messages.value = currentMessages
             }
