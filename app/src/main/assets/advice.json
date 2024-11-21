@@ -1,0 +1,16 @@
+{
+  "advices": [
+    {
+      "id": 1,
+      "text": "Remember to drink 8 glasses of water daily"
+    },
+    {
+      "id": 2,
+      "text": "Take a 5-minute break every hour to stretch"
+    },
+    {
+      "id": 3,
+      "text": "Maintain good posture while sitting"
+    }
+  ]
+}

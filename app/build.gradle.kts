@@ -42,6 +42,7 @@ android {
 
 dependencies {
 
+    implementation("com.google.code.gson:gson:2.10.1")
     implementation("androidx.preference:preference-ktx:1.2.1")
     implementation("com.google.ai.client.generativeai:generativeai:0.1.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")

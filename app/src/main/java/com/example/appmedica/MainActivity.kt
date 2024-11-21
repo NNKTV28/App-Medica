@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_chat
+                R.id.nav_home, R.id.nav_slideshow, R.id.nav_chat
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
 
         val navigationView = binding.navView
         val headerView = navigationView.getHeaderView(0)
-        val userNameTextView = headerView.findViewById<TextView>(R.id.textView)
-        val userEmailTextView = headerView.findViewById<TextView>(R.id.textView)
+        val userNameTextView = headerView.findViewById<TextView>(R.id.nav_header_username)
+        val userEmailTextView = headerView.findViewById<TextView>(R.id.nav_header_email)
 
         val userName = intent.getStringExtra("USER_NAME") ?: "User"
         val userEmail = intent.getStringExtra("USER_EMAIL") ?: "user@email.com"
