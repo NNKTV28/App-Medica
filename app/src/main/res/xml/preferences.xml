@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General Settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notifications"
+            android:summary="Enable or disable app notifications"
+            android:title="Notifications" />
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:key="theme"
+            android:title="App Theme"
+            android:summary="Choose your preferred theme" />
+
+        <EditTextPreference
+            android:key="user_name"
+            android:title="Your Name"
+            android:summary="Set your display name" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Chat Settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="chat_sounds"
+            android:summary="Enable or disable chat notification sounds"
+            android:title="Chat Sounds" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="save_chat_history"
+            android:summary="Save your chat conversations"
+            android:title="Save Chat History" />
+    </PreferenceCategory>
+</PreferenceScreen>
