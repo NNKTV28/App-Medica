@@ -15,7 +15,6 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "GEMINI_API_KEY", "\"${findProperty("GEMINI_API_KEY") ?: ""}\"")
     }
 
     buildTypes {
@@ -36,15 +35,11 @@ android {
     }
     buildFeatures {
         viewBinding = true
-        buildConfig = true
     }
 }
 
 dependencies {
 
-    implementation("androidx.preference:preference-ktx:1.2.1")
-    implementation("com.google.ai.client.generativeai:generativeai:0.1.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
